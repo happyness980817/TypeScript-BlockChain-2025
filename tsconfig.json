@@ -4,6 +4,7 @@
     "outDir": "build",
     "target": "ES6",
     "lib": ["ES6", "DOM"], // "lib" explains to typescript which APIs to use and where the code will be running.
-    "strict": true
+    "strict": true,
+    "allowJs": true
   }
 }
