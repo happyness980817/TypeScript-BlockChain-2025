@@ -19,6 +19,7 @@
   "homepage": "https://github.com/happyness980817/TypeScript-BlockChain-2025#readme",
   "description": "",
   "devDependencies": {
+    "@types/node": "^22.15.30",
     "ts-node": "^10.9.2",
     "typescript": "^5.8.3"
   },
