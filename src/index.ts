@@ -40,7 +40,7 @@ class Blockchain {
     this.blocks.push(newBlock);
   }
   public getBlocks() {
-    return this.blocks;
+    return [...this.blocks]; // blocks 배열의 내용물만 복사한 새로운 배열을 만들어 반환
   }
 }
 
